@@ -44,11 +44,12 @@ h3{
 html,body
 {
 	scroll-behavior: smooth;
-	font-display: swap 
 }
 
 body {
   background: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
   position: relative;
   width: 100%;
   overflow-x:hidden;
@@ -468,6 +469,20 @@ footer {
     float: none !important;
     width: 90% !important;
     margin: 0 auto;
+  }
+  #portfolio .col-md-4 {
+    padding: 16px;
+    margin: -9px;
+  }
+  #portfolio .container .row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+  }
+  #contact .container .row form {
+    padding-right: 30px;
+  }
+  .overlay{
+    display: none;
   }
 }
 
