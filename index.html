@@ -120,14 +120,14 @@
                     <!-- ISO section -->
                     <div class="iso-section">
                         <ul class="filter-wrapper clearfix" id="myHeader">
-                            <li><a href="#" data-filter="*" class="selected opc-main-bg">Все</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".html">Столы</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Стеллажи и тумбы</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Офисные столы</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".bar">Барные стулья</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".mobile">Лавочки</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".stool">Табуретки</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".tabletop">Столешницы</a></li>
+                            <li><a href="#" onclick="scrollWin()" data-filter="*" class="selected opc-main-bg">Все</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".html">Столы</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".photoshop">Стеллажи и тумбы</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".wordpress">Офисные столы</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".bar">Барные стулья</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".mobile">Лавочки</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".stool">Табуретки</a></li>
+                            <li><a href="#" onclick="scrollWin()" class="opc-main-bg" data-filter=".tabletop">Столешницы</a></li>
 
 
                         </ul>
@@ -2191,6 +2191,9 @@
             } else {
             header.classList.remove("sticky");
             }
+        }
+        function scrollWin(){
+            window.scrollTo(0,2150);
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
