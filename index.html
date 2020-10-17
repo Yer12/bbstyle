@@ -2193,7 +2193,13 @@
             }
         }
         function scrollWin(){
-            window.scrollTo(0,2150);
+            if ($(window).width() <= 767) { 
+                window.scrollTo(0,3250);
+            }
+            else{
+                window.scrollTo(0,2150);
+            }
+            
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
