@@ -1,3 +1,5 @@
+
+
 .sticky {
   position: -webkit-sticky !important;
   position: sticky !important;
@@ -287,6 +289,7 @@ p {
 .iso-box {
     position: relative;
     min-height: 50px;
+    display: none;
     float: left;
     margin-bottom: 20px;
 }
@@ -453,6 +456,9 @@ footer {
   }
 }
 @media screen and (max-width: 767px) {
+  .filter-wrapper {
+    margin: 0;
+  }
   .contact-info-box { 
     margin-bottom: 20px;     
     float: none;
@@ -487,6 +493,13 @@ footer {
 }
 
 @media (max-width: 450px) {
+  .nash{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .nashchet{
+    width: 90vw;
+  }
   .heading {
     font-size: 40px;
   }
